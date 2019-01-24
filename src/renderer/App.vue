@@ -18,7 +18,7 @@
           <b-button variant="primary" @click="initCourse()">
             Comenzar curso
           </b-button>
-          <b-button variant="success" @click="loadCourse">
+          <b-button variant="success" @click="loadCourse()">
             Cargar curso
           </b-button>
         </b-button-group>
@@ -35,6 +35,8 @@
 <script>
 import Content from "./components/Content.vue";
 import Header from "./components/Header.vue";
+const fs = window.require('fs');
+const { dialog } = window.require('electron').remote;
 
 export default {
   name: "app",
@@ -57,7 +59,30 @@ export default {
           };
     },
     loadCourse() {
-      // Add open file dialog here.
+      dialog.showOpenDialog((filenames) => {
+        console.log(filenames)
+        if (filenames === undefined) {
+          console.log("NO FILES")
+          return;
+        }
+        fs.readFile(filenames[0], "utf-8", (err, data) => {
+          if(err) {
+            console.log("Cannot read file ", err);
+            return;
+          }
+
+          data = JSON.parse(data)
+          this.courseData = {
+            totalModules: 2,
+            totalUnits: 4,
+            currentModule: 0,
+            currentUnit: 0,
+            unitProgress: data.unit,
+            moduleScope: data.module,
+            unitScope: 0
+          }
+        });
+      })
     }
   }
 };

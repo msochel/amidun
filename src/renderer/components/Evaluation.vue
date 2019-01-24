@@ -13,11 +13,14 @@
       v-for="(value, index) in unitData.unit_evaluation.questions.options"
       :key="index"
     >
-    <b-form-checkbox v-model="answers[index].value">{{ value.text }}</b-form-checkbox>
+    <b-form-checkbox @change="addAnswers(value)">{{ value.text }}</b-form-checkbox>
     </b-form-checkbox-group>
     <pre>
-      {{ answers }}
+      {{ temporally }}
     </pre>
+    <b-button variant="success">
+      <i class="fa fa-check-circle" aria-hidden="true"></i>
+    </b-button>
   </div>
 </template>
 
@@ -26,16 +29,22 @@ export default {
   name: "Evaluation",
   data: function() {
     return {
-      answers: {}
+      answers: {},
+      temporally: []
     }
   },
   created: function() {
     this.answers = this.unitData.unit_evaluation.questions.options.map(option => {
       return {
-        value: false,
+        value: option.text,
         right: option.right
       };
     });
+  },
+  methods: {
+    addAnswers(value) {
+      this.temporally.push(value.text)
+    }
   }
 };
 </script>

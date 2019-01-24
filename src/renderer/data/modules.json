@@ -87,12 +87,12 @@
                         ],
                         "questions": {
                             "options": [
-                                {"text": "Entretener", "right": false},
+                                {"text": "Entretener", "right": true},
                                 {"text": "Proveer acceso a todos los tipos de información", "right": false},
                                 {"text": "Servir como una puerta hacia la información", "right": false},
                                 {"text": "Promover los valores universales y los derechos civiles", "right": false},
-                                {"text": "Informar", "right": false},
-                                {"text": "Educar", "right": false},
+                                {"text": "Informar", "right": true},
+                                {"text": "Educar", "right": true},
                                 {"text": "Facilitar los procesos de enseñanza y aprendizaje", "right": false},
                                 {"text": "Servir como memoria colectiva de la sociedad", "right": false},
                                 {"text": "Recolectar información", "right": false},
