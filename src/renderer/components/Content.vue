@@ -1,4 +1,5 @@
 <template>
+<b-col>
   <b-row>
     <b-col md="4"> <ContentList></ContentList> </b-col>
     <b-col md="8">
@@ -30,7 +31,7 @@
                 v-for="(learningObjective, _i) in unitData.learning_objectives"
                 :key="_i"
               >
-                <i class="fa fa-check"> {{ learningObjective }} </i>
+                <i class="fa fa-check" /> {{ learningObjective }}
               </b-list-group-item>
             </b-list-group>
           </b-tab>
@@ -51,6 +52,7 @@
       </b-card>
     </b-col>
   </b-row>
+</b-col>
 </template>
 
 <script>

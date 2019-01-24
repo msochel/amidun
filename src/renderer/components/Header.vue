@@ -6,7 +6,19 @@
       AMID-UN
     </b-navbar-brand>
     <b-collapse is-nav id="nav_text_collapse">
-      <b-navbar-nav> <b-nav-text></b-nav-text> </b-navbar-nav>
+      <b-navbar-nav>
+        <b-nav-text></b-nav-text>
+        <b-navbar-brand right>
+          <b-button-group >
+            <b-button variant="success">
+              <i class="fa fa-floppy-o" aria-hidden="true"></i>
+            </b-button>
+            <b-button variant="info">
+              <i class="fa fa-folder-open-o" aria-hidden="true"></i>
+            </b-button>
+          </b-button-group>
+        </b-navbar-brand>
+      </b-navbar-nav>
     </b-collapse>
   </b-navbar>
 </template>
