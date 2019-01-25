@@ -1,5 +1,5 @@
 <template>
-  <div id="app">
+  <div id="app" class="bg-light">
     <div v-if="!courseData">
       <b-jumbotron>
         <template slot="header">
@@ -38,6 +38,20 @@ import Header from "./components/Header.vue";
 
 export default {
   name: "app",
+  metaInfo: {
+    meta: [
+      /* {
+        'http-equiv': "Content-Security-Policy",
+        content: `
+          default-src 'self' data:
+          'unsafe-eval';
+          style-src 'self' 'unsafe-inline';
+          media-src *;
+          script-src 'sha256-a/cpcFpfKx0vODbmd+nOXXPpEYFcN75q0gF4+l8YxP0='
+        `
+      } */
+    ]
+  },
   components: {
     Header,
     Content

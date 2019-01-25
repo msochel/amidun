@@ -15,9 +15,6 @@
     >
     <b-form-checkbox v-model="answers[index].value">{{ value.text }}</b-form-checkbox>
     </b-form-checkbox-group>
-    <pre>
-      {{ answers }}
-    </pre>
   </div>
 </template>
 

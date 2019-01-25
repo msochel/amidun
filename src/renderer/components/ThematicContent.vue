@@ -29,7 +29,7 @@
             variant="info"
             @click="activeActivity = activeActivity === _i ? -1 : _i"
           >
-            Actividad {{ _i + 1 }}
+            Actividad »
           </b-button>
         </b-card-header>
         <b-collapse
@@ -39,25 +39,32 @@
         >
           <b-card-body>
             <div width="100%" height="315">
-              <object
-                :data="'../data/activities/'.concat(activity, '.pdf')"
-                type="application/pdf"
-                width="100%"
-                height="315"
-              >
-                <p>
-                  It appears you don't have a PDF plugin for this browser. No
-                  biggie... you can
-                  <a :href="'../data/activities/'.concat(activity, '.pdf')">
-                    click here to download the PDF file.</a
-                  >
-                </p>
-              </object>
+              <img
+                style="max-width: 100%;"
+                alt="amidun main-image"
+                :src="getActivity(activity)"
+                class="responsive"
+              />
             </div>
           </b-card-body>
+          <p>
+            It appears you don't have a PDF plugin for this browser. No
+            biggie... you can
+            <a :href="getActivity(activity)">
+              click here to download the PDF file.</a
+            >
+          </p>
         </b-collapse>
       </b-card>
     </div>
+    <b-form-group label="Secciones">
+      <b-form-radio-group id="radio-sections"
+                          buttons
+                          button-variant="outline-primary"
+                          size="lg"
+                          v-model="activeSection"
+                          :options="sectionOptions"/>
+    </b-form-group>
   </div>
 </template>
 <script>
@@ -66,14 +73,45 @@ export default {
   data() {
     return {
       activeSection: 0,
-      activeActivity: -1
+      activeActivity: -1,
     };
+  },
+  methods: {
+    getActivity(name){
+      return require("../data/activities/".concat(name, ".png"));
+    },
+
+    downloadActivity(name){
+      const http = require('http');
+      const fs = require('fs');
+
+      const file = fs.createWriteStream("file.jpg");
+      const request = http.get("http://i3.ytimg.com/vi/J---aiyznGQ/mqdefault.jpg", function(response) {
+        console.log(file);
+        
+        response.pipe(file);
+      });
+    }
   },
   computed: {
     sectionData() {
       return this.unitData.pedagogical_approach[this.activeSection];
+    },
+    sectionOptions() {
+      return this.unitData.pedagogical_approach.map((section, _i, sections) => {
+        return {
+          text: _i + 1,
+          value: _i
+        }
+      })
     }
-  }
+  },
+  watch: {
+    activeSection() {
+      window.scrollTo(0, 0);
+
+    }
+  },
 };
 </script>
 
