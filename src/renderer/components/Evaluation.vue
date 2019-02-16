@@ -1,13 +1,10 @@
 <template>
   <div>
-    <div style="height: 250px">
-      <div class="ui-scrollpanel">
-        <p align="center" v-b-scrollspy="20">
-          <img src="../media/article.png" alt="notice" />
-        </p>
-      </div>
-    </div>
-    <p align="justify">{{ unitData.unit_evaluation.body.join(" ") }}</p>
+    <p v-for="(p, _i) in unitData.unit_evaluation.body"
+        :key="'pe' + _i"
+        align="justify">
+      {{ p }}
+    </p>
     <b-form-checkbox-group
       stacked
       v-for="(value, index) in unitData.unit_evaluation.questions.options"

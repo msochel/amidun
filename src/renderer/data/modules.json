@@ -1,6 +1,7 @@
 {
     "modules": [
         {
+            "number": 1,
             "description": "Ciudadanía, libertad de expresión e información, acceso a la información, discurso democrático y aprendizaje a lo largo de la vida",
             "units": [
                 {
@@ -98,6 +99,496 @@
                                 {"text": "Recolectar información", "right": false},
                                 {"text": "Conservar el patrimonio cultural", "right": false}
                             ]
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "number": 3,
+            "description": "Entendiendo las noticias, los medios y la ética de información",
+            "units": [
+                {
+                    "description": "Periodismo y sociedad",
+                    "key_topics": [
+                        "Evolución del concepto y la práctica de «libertad de palabra» y «libertad de prensa»",
+                        "Propósito del periodismo en la sociedad y su papel en la arquitectura de la democracia",
+                        "Rol y responsabilidades de los periodistas en el siglo XXI a nivel nacional y mundial",
+                        "Interés del público en el periodismo, independencia editorial vis. a vis. la influencia de los propietarios",
+                        "Rol de la ética en la información"
+
+                    ],
+                    "learning_objectives": [
+                        "Rastrear la evolución del concepto y práctica de «libertad de palabra» y «libertad de prensa»",
+                        "Delinear el propósito del periodismo y su papel para fortalecer o alcanzar la democracia y el buen gobierno",
+                        "Evaluar el rol cambiante y las responsabilidades de los periodistas y de los profesionales de la información, tanto a nivel nacional como mundial y en el contexto del interés público"
+                    ],
+                    "pedagogical_approach": [
+                        {
+                            "content": {
+                                "title": "",
+                                "body": [
+                                    "Con el advenimiento de las nuevas tecnologías de información y comunicación, el alcance e impacto de los medios tradicionales (radio, televisión y periódicos) se ha multiplicado, por lo tanto, la información y las noticias están mucho más disponibles que antes. En esta edad de la información, los periodistas, los profesionales de la información y los medios de noticias (nuevos y viejos) juegan un papel central al darnos acceso a la información más allá de nuestra experiencia inmediata, y al facilitar la participación de los ciudadanos para el buen gobierno y sociedades abiertas, democráticas y estables. Este módulo explorará el papel y la función de los medios de noticias (nuevos y tradicionales) y otros proveedores de información en nuestras vidas personales y en las sociedades democráticas, también cómo mejorar la libertad democrática y la ética de información, construyendo responsabilidad cívica y ciudadanía, requiriendo y promoviendo la transparencia y la rendición de cuentas. Este módulo también dará una visión general del camino de evolución de los medios, desde ser prácticamente un espejo de la sociedad a ser el guardián de la información, representará un sistema de control, facilitador del debate público y facilitador de la participación ciudadana.",
+                                    "Gracias a las nuevas tecnologías, también estamos viendo un incremento en el contenido generado por los usuarios, como ejemplo tenemos los testimonios presenciales de los ciudadanos. Este fenómeno nos da una gran diversidad de voces y perspectivas, también refuerza la necesidad de evaluar de una manera crítica muchas fuentes de noticias e información que están disponibles ahora."
+                                ]
+                            },
+                            "activities": []
+                        },
+                        {
+                            "content": {
+                                "title": "",
+                                "body": [
+                                    "«La civilización ha producido una idea más poderosa que otra la noción de que las personas se pueden gobernar a sí mismas. Y ha creado una teoría ampliamente articulada de la información para mantener esta idea, llamada periodismo. Las dos surgen y caen juntas.»",
+                                    "Bill Kovach and Tom Rosenstiel, The Elements of Journalism",
+                                    "Libertad de expresión – a veces también conocida como libertad de palabra - por mucho tiempo a sido vista como un derecho fundamental, esencial para la realización de nuestro potencial humano, la base para los otros derechos y las libertades y que apuntalen en el desarrollo social y económico. Sin embargo, la libertad de expresión necesita plataformas públicas que permitan el intercambio de información e ideas para que sea eficaz, de ahí el papel importante de los medios para proveer estas plataformas. Sin embargo, a fin de cumplir con esta función, los medios necesitan ser independientes del control del estado o del gobierno. Esta libertad de la regulación a su vez implica que los periodistas tienen la obligación de comportarse con ética, de ahí nace el desarrollo de los códigos profesionales que tienen que ver con los estándares de los periodistas."
+                                ]
+                            },
+                            "activities": []
+                        }
+                    ],
+                    "unit_evaluation": {
+                        "body": [
+                            "Un trabajo escrito con las reflexiones sobre los resultados de las lecturas y/o entrevistas",
+                            "Un ensayo o un blog sobre temas relacionados con los medios y la democracia"
+                        ],
+                        "questions": {
+                            "options": []
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "number": 3,
+            "description": "Representación en los medios e información",
+            "units": [
+                {
+                    "description": "Informes de noticias y el poder de las imágenes",
+                    "key_topics": [
+                        "Estudio de caso: informe de noticias",
+                        "El poder de lo visual",
+                        "Representación de desastres",
+                        "Representación de género"
+                    ],
+                    "learning_objectives": [
+                        "Analizar las representaciones de la cobertura de noticias de eventos particulares",
+                        "Examinar un reporte de noticias que ofrezcan representaciones alternativas de aquellos que se encuentren en los medios principales",
+                        "Evaluar el impacto de las presentaciones en la audiencia y en el sujeto que está siendo presentado",
+                        "Analizar las representaciones de género en los medios y sistemas de información"
+
+                    ],
+                    "pedagogical_approach": [
+                        {
+                            "content": {
+                                "title": "",
+                                "body": [
+                                    "La representación en los medios puede tomar muchas formas. Vivimos en una cultura llena de imágenes y diariamente estamos rodeados de representaciones mediáticas en los sitios de la red, en la televisión, en las películas, en el reportaje de noticias y en los libros.",
+                                    "Los periodistas, autores, camarógrafos, anunciantes, publicistas y productores de películas utilizan imágenes, audio y palabras escritas para transmitir la información sobre un evento, una historia o un tema. Generalmente se ven limitados por el tiempo, el espacio, los recursos y otras restricciones editoriales para preparar y presentar las historias al público. Por lo tanto, dependiendo de la historia que se cuenta o del mensaje que se transmita, a menudo es necesario «representar» los temas o eventos refiriéndose a características tales como raza, género, sexualidad, edad o clase. Inevitablemente, aquellos que trabajan en los medios deben seleccionar el contenido que se va a presentar al público. Sin embargo, esta selección a menudo no está libre de subjetividad y a veces lleva a representaciones de estereotipos o sobre-simplificaciones, las cuales pueden ser utilizadas para etiquetar a individuos y justificar creencias cerradas o actitudes. Esta puede que sea o no la intención del autor o periodista/reportero. A veces está sujeta a la interpretación del receptor (espectador, lector u oyente), donde los medios y los otros proveedores de información se convierten en un instrumento de partidismo, conflicto o discriminación, los medios, como es lógico, deberían ser responsables de sus acciones como cualquier otro actor social. Sin embargo, como plataforma para debate público, es vital que los medios puedan presentar una discusión e información sin control de ningún partido o gobierno.",
+                                    "También tenemos que entender que los medios y otros proveedores de información trabajan en un contexto social y que ellos son actores sociales dentro de ese contexto social. Los medios están influenciados por la sociedad y a la vez influyen a la sociedad. Tenemos que ver con más profundidad el contexto nacional específico dentro del cual los medios particulares operan. En el esfuerzo de ser alfabetizado en medios e información, debemos examinar las imágenes de los medios o representaciones y analizar no sólo la imagen o el texto de los medios en sí, sino también el contexto que rodea la imagen y el que a veces no vemos. Es importante reconocer que mientras los medios tienen mucho poder para dirigir y desafiar a la sociedad, también reflejan la sociedad al proveer los tipos de historias y representaciones que exigimos y aceptamos.",
+                                    "Muchas industrias mediáticas en varias regiones han desarrollado voluntariamente códigos de diversidad, con el objetivo de garantizar que las industrias mediáticas demuestren un compromiso con el contenido y con las iniciativas que son inclusivas y diversas. Muchas industrias mediáticas también siguen un código de ética que prohíbe el uso de material abusivo o discriminatorio basado en la raza, la etnia, la edad, el género, la habilidad física o el estado marital."
+                                ]
+                            },
+                            "activities": []
+                        }
+                    ],
+                    "unit_evaluation": {
+                        "body": [
+                            "Análisis y evaluación de imágenes visuales en el reportaje de noticias – incluyendo componentes técnicos/de diseño.",
+                            "Identificación y evaluación de los procedimientos de reportaje que mejor contribuyen al desarrollo de una ciudadanía informada.",
+                            "Evaluación del impacto visual en la audiencia"
+
+                        ],
+                        "questions": {
+                            "options": []
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "number": 4,
+            "description": "Lenguaje en los medios e información",
+            "units": [
+                {
+                    "description": "Lectura de medios y textos de información",
+                    "key_topics": [
+                        "Examinar los códigos y las convenciones de los textos de  información",
+                        "Análisis del significado: símbolos y lenguaje visual",
+                        "Explorando los lenguajes en los medios – collages de fotografía y video"
+                    ],
+                    "learning_objectives": [
+                        "Identificar los códigos y convenciones que transmiten mensajes a una variedad de medios y textos de información",
+                        "Identificar los signos y símbolos utilizados para una variedad de propósitos en las comunidades locales y globales"
+
+                    ],
+                    "pedagogical_approach": [
+                        {
+                            "content": {
+                                "title": "",
+                                "body": [
+                                    "«El medio es el mensaje», ahora es una famosa cita que Marshall Mcluhan hizo en 1964. Si bien el medio puede afectar a la forma en cómo se reciben los mensajes, los propios antecedentes/ experiencia de los usuarios/audiencias también pueden afectar la interpretación de los mensajes.",
+                                    "Un primer paso importante para ser alfabetizados en medios e información es entender cómo la información, las ideas y el significado se comunican a través de y por varios medios y otros proveedores de información, tales como bibliotecas, archivos, museos e Internet. Cada medio tiene su propio «lenguaje» o gramática que trabaja de forma única para transmitir un mensaje.",
+                                    "El «lenguaje» en este sentido se refiere a los ingredientes técnicos y simbólicos, los códigos o las convenciones que los profesionales de los medios e información pueden seleccionar y usar en un esfuerzo por comunicar ideas, información y conocimiento. Los códigos técnicos incluyen sonido, ángulos de cámara, tipos de tomas e iluminación. Por ejemplo, pueden incluir música siniestra para comunicar peligro en una película, o utilizar ángulos altos para crear un sentimiento de poder en una fotografía. Los códigos simbólicos incluyen el lenguaje, el vestuario o las acciones del personaje, símbolos icónicos que son fáciles de entender. Por ejemplo, una rosa roja puede usarse simbólicamente para comunicar un romance, o un puño cerrado puede usarse para representar la ira. Los lenguajes de los medios también pueden incluir el uso repetido de palabras particulares, frases o imágenes, también conocidas como lenguaje verbal o visual.",
+                                    "Cuando estudiamos los lenguajes de los medios, hay tres preguntas principales que debemos tomar en cuenta: ¿Cómo las audiencias de los medios entienden el lenguaje de los medios? ¿Cuáles son algunos de los principales códigos y convenciones que las personas que trabajan en los medios e información utilizan hoy en día? Otra pregunta importante es si distintas personas pueden obtener distintos significados que provienen de un mismo texto o pieza de información."
+                                ]
+                            },
+                            "activities": []
+                        }
+                    ],
+                    "unit_evaluation": {
+                        "body": [
+                            "Análisis de los códigos y convenciones de una variedad de textos",
+                            "Análisis de los signos y símbolos en la comunidad",
+                            "Análisis y evaluación de los códigos que se utilizan en las tarjetas postales locales o nacionales"
+                        ],
+                        "questions": {
+                            "options": []
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "number": 5,
+            "description": "Publicidad",
+            "units": [
+                {
+                    "description": "Anuncios de bien público (abp)",
+                    "key_topics": [
+                        "Análisis de los anuncios de bien público",
+                        "El proceso creativo y la planificación de un anuncio de bien público (ASP)"
+                    ],
+                    "learning_objectives": [
+                        "Analizar un número de ASPs como medios para comunicar la información sobre una variedad de temas",
+                        "Desarrollar un plan para un ASP original para un tema de su elección, incluyendo una declaración de propósito, mensaje, audiencia seleccionada y estrategias técnicas y creativas",
+                        "Producto de un ASP",
+                        "Evalúe la eficacia de las estrategias de comunicación y el ASP que transmite información y el mensaje que se quiere transmitir, y el alcance a la audiencia seleccionada"
+
+                    ],
+                    "pedagogical_approach": [
+                        {
+                            "content": {
+                                "title": "",
+                                "body": [
+                                    "La publicidad está relacionada con el uso pagado de los medios (impreso y electrónico) – en términos de tiempo o espacio – para promover un mensaje, servicio o producto. Si hablamos en general, existen dos tipos de publicidad: la publicidad comercial; y los anuncios de bien público que a veces se los llama mercadeo social. Generalmente la publicidad comercial tiene que ver con la promoción de una persona, producto, servicio o compañía para generar ventas (por Ej. comerciales y anuncios impresos para compañías de confección, gaseosas, películas, etc.), mientras que los anuncios de bien público tienen que ver con la promoción de mensajes y servicios que benefician al público en general (por Ej. mensajes de salud y seguridad, promoción literaria, etc.) Las dos formas de publicidad constituyen la fuente primaria de ingresos para los medios tradicionales y nuevos. Los ingresos que los medios y otros proveedores de información reciben de la publicidad se utilizan para pagar los costos operativos y el desarrollo de contenido (por Ej. programas de televisión, material para el sitio en red, artículos de revistas, programas radiales, etc.) Sin estos ingresos, la mayoría de compañías de medios privados, que forman la parte central del mecanismo de defensa para la democracia y las libertades de las que gozamos, podrían no sobrevivir.",
+                                    "Es importante que los medios atraigan los ingresos de la publicidad al ofrecer oportunidades o «vehículos» que atraen a los publicistas o a los auspiciantes. Por lo tanto, a menudo los medios desarrollan contenidos que están en la demanda pública o que atraerán a varios grupos grandes de ciudadanos. Estos grupos se pueden clasificar de acuerdo a la edad, la raza, el sexo, el ingreso, la persuasión política y más diferencias similares. ",
+                                    "De una u otra forma, la publicidad alcanza casi todos los confines del mundo. Compañías, organizaciones, ciudadanos y gobiernos utilizan la publicidad para promover los productos y servicios, y para transmitir información, creencias y valores. La información o mensajes que se transmiten a través de la publicidad son esenciales para la toma de decisiones del público. Dado el importante papel que tiene la publicidad en nuestras sociedades en la actualidad, los profesores deben comprender qué es lo que implica la creación de una publicidad eficaz y ser capaces de evaluar la publicidad como fuente de información. Más aún, es importante que los profesores aprendan sobre los mecanismos que permiten a los ciudadanos retroalimentarse sobre los anuncios de la industria y de los funcionarios del gobierno.",
+                                    "Sin embargo, la publicidad también puede tener un efecto negativo en los medios. La presión de los anunciantes puede conducir a que los periodistas eviten escribir sobre temas controvertidos. Puede llevar el contenido de interés público a favor del entretenimiento que atrae a una audiencia en particular. A menos que exista una clara delimitación entre los editoriales y el lado comercial de los medios, que cada vez es menor, entonces los intereses del negocio de la compañía de medios pueden tener un impacto sobre el contenido y la cobertura de noticias sin que esto sea evidente."
+                                ]
+                            },
+                            "activities": []
+                        },
+                        {
+                            "content": {
+                                "title": "",
+                                "body": [
+                                    "Si bien las oportunidades de publicidad se han expandido con la explosión de los medios y la tecnología, la industria continúa siendo regulada por códigos específicos que tratan de mantener la confianza del público. Hablando en general, estos códigos operan a nivel nacional y están creados por la industria de la publicidad. Estos códigos están diseñados para ayudar a asegurar que la publicidad sea verdadera, justa y precisa. En muchos países, los consumidores pueden acudir a los consejos de publicidad y grupos de consumidores por si tienen preguntas o preocupaciones sobre las prácticas de la industria.",
+                                    "La publicidad en el presente ha ido más allá de su papel tradicional. Ya no sólo está limitada a comerciales de televisión, anuncios en revistas o vallas publicitarias, en la actualidad a la publicidad se la puede usar para más y más productos, mensajes informativos e ideas, ahora se las puede presentar a través de los pop-ups en los sitios en red, teléfonos móviles y otros dispositivos manuales, colocación de productos en películas y programas de televisión, y acuerdos de auspicios, a medida que las compañías continúan buscando nuevas formas de presentar su información al público. Los gobiernos, políticos y organizaciones no-gubernamentales (ONGs) también utilizan estrategias de publicidad a medida que tratan de promover o ganar la aprobación para sus políticas o programas, y en algunos casos para mejorar su imagen. En muchos países, la base local de los comerciales no es suficiente para mantener a todas las entidades mediáticas que existen. Por lo tanto, a veces, las compañías mediáticas también deben depender de la publicidad de compañías extranjeras así como de las de gobierno.",
+                                    "Adicionalmente, las compañías internacionales y las organizaciones que quieren llegar a las audiencias locales, compran espacios de publicidad de los medios locales. En años recientes, hemos visto emerger las «supermarcas»: productos o compañías cuyos esfuerzos de publicidad y marca se han «convertido en globales»."
+                                ]
+                            },
+                            "activities": []
+                        }
+                    ],
+                    "unit_evaluation": {
+                        "body": [
+                            "El concepto y los planes para un ASP"
+                        ],
+                        "questions": {
+                            "options": []
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "number": 6,
+            "description": "Medios nuevos y tradicionales",
+            "units": [
+                {
+                    "description": "De los medios tradicionales a las nuevas tecnologías mediáticas",
+                    "key_topics": [
+                        "Cambio y continuidad – una breve historia de los medios",
+                        "¿Qué es la convergencia mediática?",
+                        "Los medios digitales como nuevos medios",
+                        "Diferencias claves entre medios tradicionales y medios nuevos"
+                    ],
+                    "learning_objectives": [
+                        "Analizar un número de ASPs como medios para comunicar la información sobre una variedad de temas",
+                        "Desarrollar un plan para un ASP original para un tema de su elección, incluyendo una declaración de propósito, mensaje, audiencia seleccionada y estrategias técnicas y creativas",
+                        "Producto de un ASP",
+                        "Evalúe la eficacia de las estrategias de comunicación y el ASP que transmite información y el mensaje que se quiere transmitir, y el alcance a la audiencia seleccionada"
+
+                    ],
+                    "pedagogical_approach": [
+                        {
+                            "content": {
+                                "title": "",
+                                "body": [
+                                    "Este módulo presenta el papel que las tecnologías nuevas y convergentes desempeñan para la amplia participación de los ciudadanos en los cambios sociales, económicos y políticos. Explica cómo las nuevas formas de medios digitales y electrónicos (noticias en línea, blogs, Wikipedia, YouTube, aplicaciones de las redes sociales, video juegos, etc.) han evolucionado desde los medios tradicionales y cómo ofrecen un mayor acceso a la información y al conocimiento, a la libertad de expresión, al buen gobierno y a la participación en un proceso democrático.",
+                                    "La coexistencia de los medios impresos, los medios de transmisión (radio y televisión) el Internet, los teléfonos móviles, etc. también hace posible que el contenido de los medios fluya a través de varias plataformas, ampliando el acceso a la información y creando una cultura de participación donde los ciudadanos no sólo consumen la información, sino que también participan activamente en su producción y distribución. Por ejemplo, las nuevas tecnologías de la información y la comunicación (TICs), han abierto oportunidades para que las audiencias participen más compartiendo la información y el conocimiento, y promueven que las personas participen de una manera más activa en el proceso democrático, permitiendo que las sociedades se abran.",
+                                    "En efecto, los nuevos medios y tecnologías de convergencia están creando nuevos espacios de auto expresión y participación en el discurso público en una amplia gama de temas sociales, económicos y políticos. Las nuevas plataformas de medios permiten a los ciudadanos que se comprometan conscientemente en el proceso democrático de sus sociedades, y ayuden a llevar las noticias globales y los temas mucho más cerca de las sociedades locales."
+
+                                ]
+                            },
+                            "activities": []
+                        }
+                    ],
+                    "unit_evaluation": {
+                        "body": [
+                            "Escriba un ensayo corto sobre las principales diferencias entre los medios tradicionales y los nuevos, discutiendo hasta qué punto las diferencias son reales o artificiales. En el ensayo, evalúe las similitudes y diferencias entre los medios tradicionales y los electrónicos o digitales. Se deberán resaltar temas como responsabilidad editorial, verificación y otros principios del periodismo."
+                        ],
+                        "questions": {
+                            "options": []
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "number": 7,
+            "description": "Oportunidades y retos en internet",
+            "units": [
+                {
+                    "description": "Los jóvenes en el mundo virtual",
+                    "key_topics": [
+                        "Web 2.0 y el mundo virtual",
+                        "Uso del Internet y hábitos en línea de los niños y los jóvenes",
+                        "Convenciones internacionales y otros instrumentos relacionados con los derechos de los niños"
+                    ],
+                    "learning_objectives": [
+                        "Comprender los patrones de uso y los intereses de los jóvenes en Internet",
+                        "Describir los términos y condiciones generales, los códigos de conducta y las regulaciones de privacidad relacionadas al uso de Internet",
+                        "Desarrollar su habilidad para utilizar métodos educativos y herramientas básicas para ayudar a los jóvenes a utilizar Internet con responsabilidad – y que estén conscientes de las oportunidades, los retos y los riesgos relacionados con el mismo"
+                    ],
+                    "pedagogical_approach": [
+                        {
+                            "content": {
+                                "title": "",
+                                "body": [
+                                    "Es esencial que los ciudadanos de todos los grupos de edad tomen parte en la sociedad de información. Internet provee grandes oportunidades para mejorar la vida de todos los usuarios.",
+                                    "Tiene efectos positivos en la educación, en el mundo del trabajo y en el crecimiento económico. Con la fácil digitalización, el almacenamiento de la información, y el acceso a través de un amplio rango de dispositivos, Internet ha incrementado de una manera dramática la información y los recursos disponibles para las personas. Los niños y jóvenes a menudo tienen un gran conocimiento de sus aplicaciones y pueden beneficiarse tremendamente de su uso, pero también los niños son vulnerables. Hay riesgos y amenazas acompañan a este desarrollo positivo, a menudo en paralelo con aquellos que ya existen en el mundo fuera de línea.",
+                                    "Tomar medidas para proteger a los menores podría ayudar a enfrentar el problema. Sin embargo, a pesar de que estas medidas puedan ser útiles, el depender totalmente de estrategias de protección no ha dado muchos resultados para garantizar que los jóvenes utilicen Internet de una manera responsable. La mejor forma de ayudar a los jóvenes a que se mantengan lejos del peligro es empoderarlos y educarlos sobre cómo evitar o administrar los riesgos relacionados con el uso de Internet. Las tecnologías pueden jugar un papel útil y de apoyo en estas áreas, especialmente cuando hay niños y jóvenes involucrados."
+                                ]
+                            },
+                            "activities": []
+                        }
+                    ],
+                    "unit_evaluation": {
+                        "body": [],
+                        "questions": {
+                            "options": []
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "number": 8,
+            "description": "Alfabetización informacional y destrezas bibliotecarias",
+            "units": [
+                {
+                    "description": "Conceptos y aplicación de la alfabetización informacional",
+                    "key_topics": [
+                        "Introducción a la información y a la alfabetización informacional",
+                        "Conceptos claves en la alfabetización informacional",
+                        "Impacto de la informatización en las sociedades y las nuevas destrezas",
+                        "Estándares y aplicaciones de la alfabetización informacional",
+                        "Etapas de la alfabetización informacional"
+                    ],
+                    "learning_objectives": [
+                        "Describir el papel y la importancia de la información y la necesidad de las destrezas en la alfabetización informacional en las sociedades de la información y el conocimiento",
+                        "Demostrar las etapas de entendimiento/principales elementos de las destrezas de alfabetización informacional que se pueden aplicar en todos los campos",
+                        "Identificar y explorar las fuentes generales de información (impresa y electrónica)",
+                        "Analizar los estándares de alfabetización informacional",
+                        "Identificar y discutir los temas de ética y de responsabilidad en el uso las herramientas de información y los recursos"
+                    ],
+                    "pedagogical_approach": [
+                        {
+                            "content": {
+                                "title": "",
+                                "body": [
+                                    "Los profesores ya han sido expuestos a lo básico de la alfabetización mediática e informacional (AMI) en la unidad introductoria del Módulo 1. El objetivo de este módulo es enseñar que hay otras habilidades importantes de información y que también son componentes vitales de AMI.",
+                                    "Este módulo enfatiza los bloques de construcción que contribuyen a la alfabetización informacional. Muchos cursos se concentran en la entrega de conocimiento en lugar de aprender a aprender. Sin embargo, el creciente énfasis en el valor de AMI en la educación y en una sociedad más amplia subraya la importancia de que los usuarios sean aprendices entrenados. Esto significa el aprender a reconocer sus necesidades de información; que puedan localizar/recuperar la información de una manera eficaz e eficiente; analizar, organizar y evaluar esta información; y utilizar, aplicar, reproducir y comunicar esta información para fines específicos de toma de decisiones y resolver problemas (UNESCO, 2008).",
+                                    "Los profesores tienen que adquirir por sí mismos y desarrollar en sus estudiantes un conjunto de competencias (conocimiento, habilidades y aptitudes) para obtener, entender, adaptar, generar, almacenar, y presentar la información para el análisis de problemas y la toma de decisiones. Estas competencias son aplicables a cualquier contexto de enseñanza y aprendizaje, el ambiente educativo, trabajo general/ambiente de trabajo o para enriquecimiento personal. Un profesor alfabetizado en medios e información es capaz de entender la información y los mensajes de los medios de distintas fuentes de información y es capaz de evaluar y utilizar este entendimiento apropiadamente para resolver los problemas. Él / ella también ha adquirido habilidades básicas de bibliotecología y es capaz de maximizar el uso de las fuentes documentales para aprender y compartir la información. El profesor que es alfabetizado en medios e información entiende y aprecia las funciones de los medios y los otros proveedores de información en la sociedad, tales como bibliotecas, museos, archivos, Internet y las instituciones educativas y de investigación que trabajan en este campo."
+                                ]
+                            },
+                            "activities": []
+                        },
+                        {
+                            "content": {
+                                "title": "",
+                                "body": [
+                                    "Los proveedores de información ofrecen un servicio importante a las personas para que puedan tener acceso a la misma y en algunos casos guardar su propia información. Más allá de los medios, existen otras fuentes de información que las personas utilizan (por Ej. noticias de salud, informes de gobierno e información comunicada oralmente, tanto informalmente como a través de debates públicos). Estos se pueden hacer electrónicamente (por Ej. debates que son televisados durante las elecciones) o en sesiones cara a cara (por Ej. reuniones en la municipalidad). Estos eventos pueden ser mediados por «los medios» o por las personas. Básicamente, AMI también acoge las destrezas bibliotecarias, las destrezas de estudios e investigación y las destrezas de tecnología. Este módulo se enfoca en desarrollar el entendimiento y las destrezas de una alfabetización literaria, destrezas de bibliotecología y alfabetización digital para la resolución de problemas y la toma de decisiones en contextos educativos. Trata de habilitar a los profesores para que comprendan los conceptos de información, alfabetización informacional y tecnología digital y la relación entre ellos para incrementar sus habilidades al acceder y utilizar una amplia gama de recursos de información que están disponibles en el mundo de hoy. Adquirir estas destrezas dará una oportunidad para un aprendizaje a lo largo de toda la vida a través del acceso a la información, por lo tanto esto asegura que los profesores tengan una participación continua en una vida intelectual activa."
+                                ]
+                            },
+                            "activities": []
+                        }
+                    ],
+                    "unit_evaluation": {
+                        "body": [
+                            "Lleve a cabo una investigación en su biblioteca o en Internet sobre el término «sociedad de la información». Describa cuáles son los supuestos claves que subyacen a la sociedad de la información. Hable sobre la importancia de estos supuestos de vivir y aprender en la edad en la que vivimos ahora. Haga la misma tarea con el término «sociedad del conocimiento. ¿Cuáles son las similitudes que se perciben entre los dos términos, puede observar alguna similitud?",
+                            "Evalúe el valor de la información de los medios impresos (por Ej. periódicos, revistas, etc.) y los costos asociados con su almacenamiento, recuperación y uso. La investigación también debe tomar en cuenta los siguientes puntos: el valor de la información basada en los beneficios que genera, el valor real de la información basada en su disponibilidad o no-disponibilidad, y las consecuencias para los usuarios si la información no está disponible",
+                            "¿De qué manera las destrezas de la alfabetización informacional son relevantes para combatir las enfermedades, mejorar las oportunidades de empleo y mejorar las prácticas pedagógicas de los profesores en las clases?",
+                            "Usando Internet o la biblioteca de la escuela y/o colegio, identifique un problema o un tema para investigar en una de las siguientes áreas: educación cívica, ciencias, estudios sociales, historia o geografía. Presente los resultados de su investigación usando una presentación en Power Point.",
+                            "¿De qué forma usted seleccionó lo que quería presentar de entre una gran variedad de información disponible sobre el tema? ¿De qué quería usted tener más información que no pudo tener acceso, o cómo afectó esto a su presentación? Finalmente, ¿transformó usted la información que recopiló para aplicar su contexto particular? ¿Cómo y por qué?"
+
+                        ],
+                        "questions": {
+                            "options": []
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "number": 9,
+            "description": "Comunicación, ami y aprendizaje - módulo final",
+            "units": [
+                {
+                    "description": "Comunicación, enseñanza y aprendizaje",
+                    "key_topics": [
+                        "Definición de comunicación",
+                        "Teorías básicas sobre la comunicación",
+                        "Explorando la enseñanza y el aprendizaje como un proceso de comunicación y cómo el conocimiento de AMI puede contribuir a este proceso",
+                        "Estrategias para enseñar a través y sobre AMI"
+                    ],
+                    "learning_objectives": [
+                        "Demostrar un entendimiento básico de la comunicación",
+                        "Identificar y analizar las teorías básicas de la comunicación y su relación con el proceso de enseñanza-aprendizaje relacionado con la aplicación de las destrezas AMI"
+
+                    ],
+                    "pedagogical_approach": [
+                        {
+                            "content": {
+                                "title": "",
+                                "body": [
+                                    "Este Currículum sobre alfabetización mediática e informacional (AMI) debería ser visto dentro del amplio campo de la comunicación, de acuerdo a lo que establecen las nuevas teorías de la enseñanza. La enseñanza y el aprendizaje están íntimamente ligados y son parte integral del proceso de comunicación. De hecho, ninguna de las dos puede ser eficaz sin la otra. Los profesores y estudiantes, consciente o inconscientemente, aplican los elementos de un proceso de comunicación en el aula, a veces básico y a veces complejo. La enseñanza y el aprendizaje se convierten en un reto mayor cuando se integran las nuevas tecnologías, como los medios de la comunicación de masas (radio, televisión, periódicos y bibliotecas) al aula. Que los profesores y los estudiantes adquieran las destrezas AMI abre oportunidades para enriquecer el medio ambiente educativo y promover un proceso de enseñanza-aprendizaje que sea más dinámico. La interacción de los profesores y los estudiantes con los medios y otros proveedores de información puede ayudar a crear espacios de aprendizaje que sean democráticos y pluralistas, y que también contribuyan a la creación del conocimiento. Ser conscientes de estas fuerzas dinámicas que se desarrollan en las clases supone un enfoque en los procesos cognitivos y metacognitivos identificados en las teorías de enseñanza.",
+                                    "Este módulo, el último en la sección obligatoria del Currículum, sirve como la piedra culminante para abarcar el contenido que se cubre en los módulos anteriores. Explora los vínculos entre la comunicación y el aprendizaje (incluyendo las teorías de aprendizaje), y sugiere como AMI puede mejorar esta relación. Finaliza con una discusión sobre cómo administrar el cambio a fin de fomentar un medio ambiente propicio para AMI."
+
+                                ]
+                            },
+                            "activities": []
+                        }
+                    ],
+                    "unit_evaluation": {
+                        "body": [
+                            "Enseñar sobre AMI requiere un conocimiento y un análisis de los medios, bibliotecas, archivos y otros proveedores de información y del papel que estos juegan en el aprendizaje de por vida, y en transmitir y dar forma a la información y a los mensajes (es decir; los medios y la tecnología en si se convierten en los sujetos de estudio en la clase).",
+                            "El enseñar a través de los medios y los otros proveedores de información requiere un conocimiento y un análisis por parte de los profesores sobre su propio papel y el papel de los medios y la tecnología en el proceso de enseñanza y aprendizaje. Para decirlo de otro modo, ¿qué es lo que se enseña a través de los medios y/o tecnología en la clase? ¿Existe un tema en especial o materia que se enseña a través del uso de la tecnología o los medios? ¿Cómo pueden los profesores aplicar las destrezas AMI a lo que están enseñando?",
+                            "Identifique ejemplos generales de enseñanza acerca de AMI y a través de los medios, bibliotecas, archivos y otros proveedores de información. Describa actividades/ejemplos específicos en su clase donde usen estos dos enfoques. ¿Qué ofrecen estos enfoques a los estudiantes en términos de su experiencia de aprendizaje?"
+
+                        ],
+                        "questions": {
+                            "options": []
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "number": 10,
+            "description": "Audiencias",
+            "units": [
+                {
+                    "description": "Audiencias mediáticas",
+                    "key_topics": [
+                        "Audiencia e investigación de mercado",
+                        "Identificación de las audiencias seleccionadas",
+                        "Cómo las audiencias negocian el significado"
+                    ],
+                    "learning_objectives": [
+                        "Explorar la noción de audiencia – tanto seleccionada como activa",
+                        "Identificar las razonas para las interpretaciones de los textos mediáticos",
+                        "Analizar cómo se identifican y se escogen a las audiencias",
+                        "Explicar cómo las audiencias seleccionan el medio que consumen y con el que interactúan",
+                        "Analizar cómo las audiencias responden a los textos mediáticos y explicar los factores determinantes",
+                        "Examinar la relación entre producción, mensaje y audiencia"
+                    ],
+                    "pedagogical_approach": [
+                        {
+                            "content": {
+                                "title": "",
+                                "body": [
+                                    "Todos tenemos experiencia como audiencia de los medios. Tanto niños como adultos pasan una gran cantidad de su tiempo interactuando con los medios y con actividades de comunicación. Un supuesto común ha sido que la audiencia es un grupo homogéneo de individuos pasivos que van a interpretar el texto de la misma manera. De una forma más precisa, existen dos maneras para estudiar las audiencias de los medios. La primera es como consumidores de los productos mediáticos, o lo que la industria de los medios y comunicaciones ha descrito como «audiencias seleccionadas». La segunda se basa en la teoría de la recepción, donde las audiencias se ven como participantes activos en la lectura y en la interpretación de los medios y los textos de información.",
+                                    "Las audiencias escogidas son los grupos de lectores, espectadores u oyentes que se definen por características específicas como edad, ingresos, género o intereses. Este es un grupo específico para el cual los medios y otras organizaciones desarrollan el contenido y dan forma a los mensajes. Por ejemplo, los anunciantes están pendientes de comprar el tiempo o espacio que les dará acceso a un grupo demográfico específico y a una audiencia seleccionada. En la industria de la televisión, por ejemplo, los anunciantes compran unidades de tiempo de una cadena durante un programa particular, si es que el programa atrae a la audiencia que ellos esperan llegar. A pesar de que seamos vistos como la audiencia seleccionada por los medios, cada vez que vemos o escuchamos un texto mediático, nuestra respuesta se basa en nuestro conocimiento social individual y en las experiencias que traemos al texto. Cuando recibimos los mensajes o la información de los medios, lo interpretamos a través de nuestra ideología personal y de nuestros valores.",
+                                    "Sin embargo, también es muy posible, que en realidad negociemos el significado que tomamos de un texto, aceptando algunos elementos y rechazando otros. Cómo el significado se construye con las imágenes o fotografías (a través de los ángulos de las cámaras, tipos de tomas, edición, etc.) también afecta a las interpretaciones de la audiencia de diferente forma.",
+                                    "Los investigadores han descubierto que los lectores de revistas pasan menos de 2 segundos mirando la página. En la televisión, un «spot» publicitario típico dura sólo de 15 a 30 segundos, y muchos televidentes «ojean» a través de las pausas comerciales, o «navegan» en Internet, quedándose en un solo «lugar» solo unos pocos segundos. Para poder conectar rápidamente con los consumidores de hoy en día, los productores de textos mediáticos a menudo crean un fuerte recurso emocional basado en la investigación realizada sobre demografía social o «psicografía», que es el análisis de las actitudes sobre las personas, de sus creencias, deseos y necesidades. A pesar de que un equipo de creativos no puede predecir cómo cada individuo va a reaccionar ante los medios, su investigación les dará una buena idea de cómo los grandes grupos de la población van a reaccionar."
+
+                                ]
+                            },
+                            "activities": []
+                        }
+                    ],
+                    "unit_evaluation": {
+                        "body": [
+                            "Investigue sobre el trabajo realizado por Blumer y Kats (1974), quien dijo que las audiencias podrían escoger y utilizar un texto mediático por una o varias de las siguientes razones:"
+                        ],
+                        "questions": {
+                            "options": [
+                                "Diversión: un escape de la vida diaria",
+                                "Relaciones personales: el verse a usted conectado con un personaje de televisión o de la «familia»",
+                                "Identidad personal: ser capaz de identificarse con y aprender de un comportamiento, actitud o valores que se reflejan en los textos mediáticos",
+                                "Supervisión: utilizar los medios y los textos de información para aprender acerca de lo que sucede en nuestro mundo de alrededor, y para obtener información que puede ser útil para nuestra vida diaria (por Ej. Predicciones climáticas, noticias, resultados de elecciones, etc.)"
+
+                            ]
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "number": 11,
+            "description": "Medios, tecnología y el mundo global (global village)",
+            "units": [
+                {
+                    "description": "Propiedad de los medios en el mundo global actual",
+                    "key_topics": [
+                        "La economía global, el comercio electrónico y la propiedad de los medios",
+                        "Patrones de comunicación, propiedad de los medios y control",
+                        "Medios privados (comerciales), medios controlados o de propiedad del gobierno, y organizaciones de medios públicos, por Ej. sistemas de difusión pública",
+                        "Medios comunitarios",
+                        "Convergencia de tecnologías (medios de masas, telecomunicaciones y computadoras) y el nacimiento de los conglomerados mediáticos",
+                        "Pluralismo y concentración (por Ej. cadenas de medios y propiedad cruzada (cross ownership)"
+                    ],
+                    "learning_objectives": [
+                        "Describir los diferentes patrones de propiedad de los medios y su control",
+                        "Examinar el funcionamiento de la economía global, y el nacimiento de las nuevas tecnologías, y cómo estas afectan a las estructuras y a los patrones de la propiedad de los medios.",
+                        "Evaluar cómo la propiedad de los medios y el control afecta a las políticas de medios, a los procesos, a los contenidos y a la transmisión.",
+                        "Demostrar cómo la convergencia de los medios facilita nuevos enfoques de contenido (editorial) y de desarrollo (externalización de servicios, deslocalización y aprovisionamiento local)",
+                        "Comprender cómo las convenciones internacionales existentes y las leyes/políticas nacionales dan forma o regulan la estructura de la propiedad de medios"
+
+                    ],
+                    "pedagogical_approach": [
+                        {
+                            "content": {
+                                "title": "",
+                                "body": [
+                                    "El tema de la propiedad y el control de los medios de comunicación es crucial ya que esto define el contenido de los medios y los procesos. A pesar de que los periodistas promueven la democracia en el ejercicio de la libertad de expresión y la libertad de prensa, esta libertad e independencia de los periodistas, de acuerdo a algunos críticos, de alguna manera recibe el impacto de los asuntos financieros y políticos de los dueños de los medios o sus empleados – en algunos casos puede ser bastante sutil y en otros suele ser bastante obvio. Dicho control, incluyendo su patrón y estructura, básicamente está formado por las realidades generalizadas (y geopolíticas) y la potencial concentración de la propiedad. Es por esto que tanto la independencia editorial y el pluralismo de los medios a nivel local y global es importante.",
+                                    "Debido a la creciente complejidad geográfica de los medios, los flujos de medios no sólo van ahora del Norte al Sur sino que también van de Sur-Norte y de Sur-Sur. Algunos medios influyentes regionales están cambiando la configuración del sistema internacional de medios. En la mayoría de países alrededor del mundo, las organizaciones de medios masivos son compañías comerciales privadas. Otras tienen propietarios privados pero no comerciales, como aquellas que están operadas por las organizaciones no gubernamentales, mientras que otras son de propiedad del gobierno y están controladas por este. En el campo de la difusión, el modelo de servicio público de difusión provee una alternativa tanto para los medios comerciales como para los de propiedad del gobierno. Un desarrollo que se ha vuelto positivo es la creciente popularidad de los medios que pertenecen a las comunidades, lo que involucra a los residentes locales en el desarrollo del contenido y da voz a los sectores marginados de la sociedad."
+                                ]
+                            },
+                            "activities": []
+                        },
+                        {
+                            "content": {
+                                "title": "",
+                                "body": [
+                                    "Los avances tecnológicos en la economía mundial de mercado han promovido el crecimiento de las compañías globales de medios, a los cuales se denomina como conglomerados transnacionales de medios. Su poder e influencia se extiende más allá de las barreras geográficas, económicas y políticas. Las compañías globales de medios incluyen a aquellas que operan a nivel regional. La convergencia, a pesar de las regulaciones anti-monopolio, también ha facilitado estas fusiones y adquisiciones de los medios a nivel nacional y mundial. Muchas de las organizaciones de medios de masas están estableciendo alianzas con compañías y haciendo negocios en telecomunicaciones, aplicaciones de red y entretenimiento (películas y video juegos), etc. Las nuevas compañías creadas por estas coaliciones se han vuelto más poderosas a medida que sus mensajes, imágenes y voces pueden ahora ser transmitidas globalmente y alcanzar incluso los lugares más remotos a través de diversas plataformas – impresos, difusión y digital.",
+                                    "El nacimiento de estos medios globales presenta tanto retos como oportunidades. Algunos académicos de la comunicación nos han advertido de las amenazas de la homogeneidad cultural, pero las mismas herramientas de medios también ofrecen oportunidades para la diversidad cultural y el pluralismo (es decir, producir, compartir, e intercambiar el contenido de los medios locales). Los medios globales también tienen la capacidad y los recursos de establecer estándares más altos de profesionalismo. Como resultado, muchos de los medios locales se ven forzados a ser más competitivos y mejorar la calidad de su programación. Más aún, los temas de desarrollo que tienen un impacto a nivel mundial, como el cambio climático, las pandemias o las amenazas a la biodiversidad, pueden ser comunicadas de una manera eficaz a través de los medios globales.",
+                                    "También se reconoce que muchas de las historias que se esconden de las audiencias locales y nacionales debido a restricciones político-económicas, sin embargo se revelan a la audiencia del mundo a través de los medios globales independientes. Este módulo termina con una nota de optimismo, con una discusión sobre los medios alternativos, especialmente aquellos en pequeñas comunidades, que operan en el panorama de los medios globales. También se habla sobre el número creciente de canales mediáticos, ya que estos ofrecen alternativas a la dominación de unos pocos, incluyendo sitios de noticias en red. Los medios comunitarios se pueden instalar en las escuelas/colegios, comunidades, lugares de trabajo, etc. y son una alternativa para los medios más grandes. Estos canales de medios “pequeños” promueven el derecho a la información y ofrecen a las personas locales una voz propia."
+                                ]
+                            },
+                            "activities": []
+                        }
+                    ],
+                    "unit_evaluation": {
+                        "body": [
+                            "Análisis contextual",
+                            "Identifique un tema nacional que haya sido cubierto de manera extensa por las principales estaciones de televisión (de propiedad privada, de propiedad del gobierno y de propiedad pública) y compare y contraste los ángulos (es decir; puntos de vista particulares o perspectivas) y el tratamiento (es decir: reporte o manipulación) de las noticias. Refiérase al módulo 2 para ver los antecedentes de los valores en las noticias y en el proceso de desarrollo de las noticias).",
+                            "Revise las políticas editoriales de las publicaciones de la escuela/colegio en los diferentes ambientes (sectario vs. no sectario, privado vs. propiedad de gobierno, y estado vs. escuelas/ colegios locales) y descubra cómo la propiedad afecta al manejo de las publicaciones, al contenido editorial, etc."
+                        ],
+                        "questions": {
+                            "options": []
                         }
                     }
                 }
