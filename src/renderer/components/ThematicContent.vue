@@ -76,6 +76,11 @@ export default {
       activeActivity: -1,
     };
   },
+  beforeUpdate: function() {
+    if (this.activeSection > this.unitData.pedagogical_approach.length - 1) {
+      this.activeSection = 0;
+    }
+  },
   methods: {
     getActivity(name){
       return require("../data/activities/".concat(name, ".png"));

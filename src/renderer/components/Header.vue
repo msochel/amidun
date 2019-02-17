@@ -34,14 +34,13 @@ export default {
   methods: {
     saveProgress() {
       var progress = {
-        "unit": this.courseData.currentUnit,
-        "module": this.courseData.currentModule
+        "module": this.courseData.moduleScope
       }
       dialog.showSaveDialog({ filters: [
         { name: 'json', extensions: ['json'] }
         ]}, function (fileName) {
         if (fileName === undefined) return;
-        fs.writeFile(fileName, JSON.stringify(progress), function (err) {   
+        fs.writeFile(fileName, JSON.stringify(progress), function (err) {
           dialog.showMessageBox({ message: "The file has been saved! :-)",
           buttons: ["OK"] });
         });
@@ -62,14 +61,15 @@ export default {
 
           data = JSON.parse(data)
           this.courseData = {
-            totalModules: 2,
+            totalModules: 11,
             totalUnits: 4,
-            currentModule: 0,
+            currentModule: data.module,
             currentUnit: 0,
-            unitProgress: data.unit,
+            unitProgress: 0,
             moduleScope: data.module,
             unitScope: 0
           }
+          console.log(this.courseData)
         });
       })
     }

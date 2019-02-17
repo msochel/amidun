@@ -7,7 +7,7 @@
       class="mb-1"
     >
       <b-card-header header-tag="header" class="p-1" role="tab">
-        <b-button block variant="info" @click="courseData.currentModule = _i">
+        <b-button block variant="info" @click="courseData.currentModule = _i" :disabled="isLocked(_i)">
           Módulo {{ _i + 1 }}
         </b-button>
       </b-card-header>
@@ -60,9 +60,6 @@ export default {
         return true;
       }
       if (moduleIndex > this.courseData.moduleScope) {
-        return true;
-      }
-      if (unitIndex > this.courseData.unitScope) {
         return true;
       }
       return false;

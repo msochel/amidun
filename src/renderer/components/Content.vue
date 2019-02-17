@@ -8,7 +8,7 @@
         >: {{ unitData.description }}
       </h2>
       <b-card no-body>
-        <b-tabs pills card>
+        <b-tabs pills card v-model="activeTab">
           <b-tab :active="activeTab === 0" @click="activeTab = 0">
             <template slot="title">
               <i class="fa fa-search" aria-hidden="true"></i> Temas clave
@@ -76,11 +76,9 @@ export default {
   watch: {
     unitData: {
       handler: function() {
-        console.log(this.unitData);
         this.$nextTick(() => {
           this.activeTab = 0;
         })
-        
       },
       deep: true
     }

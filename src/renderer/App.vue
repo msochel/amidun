@@ -63,7 +63,7 @@ export default {
       this.courseData = data
         ? data
         : {
-            totalModules: 2,
+            totalModules: 11,
             totalUnits: 4,
             currentModule: 0,
             currentUnit: 0,
@@ -87,11 +87,11 @@ export default {
 
           data = JSON.parse(data)
           this.courseData = {
-            totalModules: 2,
+            totalModules: 11,
             totalUnits: 4,
-            currentModule: 0,
+            currentModule: data.module,
             currentUnit: 0,
-            unitProgress: data.unit,
+            unitProgress: 0,
             moduleScope: data.module,
             unitScope: 0
           }

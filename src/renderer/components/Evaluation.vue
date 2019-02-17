@@ -13,7 +13,7 @@
     <b-form-checkbox @change="addAnswers(value)">{{ value.text }}</b-form-checkbox>
     </b-form-checkbox-group>
     <b-col align="right">
-      <b-button variant="success">
+      <b-button variant="success" @click="addModuleScope" :disabled="this.courseData.moduleScope !== this.courseData.currentModule">
         <i class="fa fa-check-circle" aria-hidden="true"></i>
         Hecho
       </b-button>
@@ -41,6 +41,14 @@ export default {
   methods: {
     addAnswers(value) {
       this.temporally.push(value.text)
+    },
+    addModuleScope() {
+      if (this.courseData.moduleScope === this.courseData.currentModule) {
+        this.courseData.moduleScope += 1;
+        if (this.courseData.currentModule !== this.courseData.totalModules - 1) {
+          this.courseData.currentModule += 1;
+        }
+      }
     }
   }
 };
