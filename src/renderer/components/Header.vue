@@ -78,4 +78,10 @@ export default {
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped></style>
+<style scoped>
+.navbar {
+  position: fixed;
+  z-index: 3000;
+  width: 100%;
+}
+</style>

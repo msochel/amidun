@@ -253,7 +253,7 @@
             "description": "Publicidad",
             "units": [
                 {
-                    "description": "Anuncios de bien público (abp)",
+                    "description": "Anuncios de bien público (ABP)",
                     "key_topics": [
                         "Análisis de los anuncios de bien público",
                         "El proceso creativo y la planificación de un anuncio de bien público (ASP)"
@@ -373,13 +373,7 @@
                             },
                             "activities": []
                         }
-                    ],
-                    "unit_evaluation": {
-                        "body": [],
-                        "questions": {
-                            "options": []
-                        }
-                    }
+                    ]
                 }
             ]
         },

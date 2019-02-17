@@ -1,8 +1,8 @@
 <template>
 <b-col>
   <b-row>
-    <b-col md="4"> <ContentList></ContentList> </b-col>
-    <b-col md="8">
+    <b-col md="4" id="content-list"> <ContentList></ContentList> </b-col>
+    <b-col md="8" id="content">
       <h2>
         <i>Unidad: {{ courseData.currentUnit + 1 }}</i
         >: {{ unitData.description }}
@@ -42,7 +42,8 @@
             </template>
             <ThematicContent></ThematicContent>
           </b-tab>
-          <b-tab :active="activeTab === 3" @click="activeTab = 3">
+          <b-tab v-if="unitData.unit_evaluation"
+             :active="activeTab === 3" @click="activeTab = 3">
             <template slot="title">
               <i class="fa fa-question" aria-hidden="true"></i> Evaluación
             </template>
@@ -71,6 +72,32 @@ export default {
     ContentList,
     ThematicContent,
     Evaluation
-  }
+  },
+  watch: {
+    unitData: {
+      handler: function() {
+        console.log(this.unitData);
+        this.$nextTick(() => {
+          this.activeTab = 0;
+        })
+        
+      },
+      deep: true
+    }
+  },
 };
 </script>
+
+<style scoped>
+#content-list {
+  height: 500px;
+  overflow-y: auto;
+  position: fixed;
+  top: 66px;
+}
+#content {
+  top: 66px;
+  right: 0;
+  position: absolute;
+}
+</style>
