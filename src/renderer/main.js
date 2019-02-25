@@ -18,7 +18,8 @@ Vue.use(BootstrapVue);
 
 const store = new Vuex.Store({
   state: {
-    courseData: null
+    courseData: null,
+    score: 0
   },
   mutations: {}
 });
@@ -44,6 +45,14 @@ Vue.mixin({
       return this.mainContent.modules[this.courseData.currentModule].units[
         this.courseData.currentUnit
       ];
+    },
+    score: {
+      get() {
+        return this.$store.state.score;
+      },
+      set(newValue) {
+        this.$store.state.score = newValue;
+      }
     }
   }
 });

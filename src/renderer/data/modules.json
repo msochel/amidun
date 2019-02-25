@@ -83,21 +83,27 @@
                         "body": [
                             "La edición virtual del periódico El Espectador, del 17 de mayo de 2018, presenta un artículo titulado «Cúcuta, un oasis para los venezolanos antes de las presidenciales en su país» (goo.gl/bvwXeY). Uno de los apartes del articulo expresa:",
                             "\"Los cruces fronterizos del departamento colombiano de Norte de Santander, principal conexión con Venezuela, son testigos de la odisea de las cerca de 50.000 personas que entran y salen de ese país a diario por estas fechas, unos 15.000 más de lo habitual\".",
-                            "\"Lo hacen para abastecerse de alimentos, medicinas y artículos de higiene para los días venideros porque, según dicen, no saben lo que pueda pasar después de las elecciones presidenciales del domingo 20, por lo cual la frontera se cerrará antes\".",
-                            "¿Qué rol cumple el texto?:"
+                            "\"Lo hacen para abastecerse de alimentos, medicinas y artículos de higiene para los días venideros porque, según dicen, no saben lo que pueda pasar después de las elecciones presidenciales del domingo 20, por lo cual la frontera se cerrará antes\"."
                         ],
+                        "img": ["article"],
+                        "pdf": null,
                         "questions": {
                             "options": [
-                                {"text": "Entretener", "right": true},
-                                {"text": "Proveer acceso a todos los tipos de información", "right": false},
-                                {"text": "Servir como una puerta hacia la información", "right": false},
-                                {"text": "Promover los valores universales y los derechos civiles", "right": false},
-                                {"text": "Informar", "right": true},
-                                {"text": "Educar", "right": true},
-                                {"text": "Facilitar los procesos de enseñanza y aprendizaje", "right": false},
-                                {"text": "Servir como memoria colectiva de la sociedad", "right": false},
-                                {"text": "Recolectar información", "right": false},
-                                {"text": "Conservar el patrimonio cultural", "right": false}
+                                {
+                                    "question": "¿Qué rol cumple el texto?:",
+                                    "answers": [
+                                        {"text": "Entretener", "right": true},
+                                        {"text": "Proveer acceso a todos los tipos de información", "right": false},
+                                        {"text": "Servir como una puerta hacia la información", "right": false},
+                                        {"text": "Promover los valores universales y los derechos civiles", "right": false},
+                                        {"text": "Informar", "right": true},
+                                        {"text": "Educar", "right": true},
+                                        {"text": "Facilitar los procesos de enseñanza y aprendizaje", "right": false},
+                                        {"text": "Servir como memoria colectiva de la sociedad", "right": false},
+                                        {"text": "Recolectar información", "right": false},
+                                        {"text": "Conservar el patrimonio cultural", "right": false}
+                                    ]
+                                }
                             ]
                         }
                     }
@@ -105,7 +111,7 @@
             ]
         },
         {
-            "number": 3,
+            "number": 2,
             "description": "Entendiendo las noticias, los medios y la ética de información",
             "units": [
                 {
@@ -148,11 +154,45 @@
                     ],
                     "unit_evaluation": {
                         "body": [
-                            "Un trabajo escrito con las reflexiones sobre los resultados de las lecturas y/o entrevistas",
-                            "Un ensayo o un blog sobre temas relacionados con los medios y la democracia"
+                            "Responder las siguientes preguntas de acuerdo al siguiente texto:\n",
+                            "Entendiendo el término prensa como conjunto de personas dedicadas al periodismo, y el término medio de comunicación como órgano destinado a la información pública; se denomina prensa colombiana o prensa de Colombia al conjunto de personas o instituciones que difunden a través de los medios de comunicación: impresos en papel o en tecnologías alternativas (internet o radiofrecuencia); información o noticias, en especial sobre la actualidad colombiana, pero también para entretenimiento (cómics y pasatiempos).\n",
+                            "La prensa va muy ligada a la libertad de expresión e información, convirtiéndose quizá en el único medio que tiene la comunidad para expresar sus ideas libremente.\n",
+                            "La prensa en Colombia puede ser escrita, oral o visual.\n", 
+                            "A nivel escrito en Colombia, la prensa tiene presencia en diarios, semanarios y revistas especializadas (de circulación paga o gratuita) además de sitios web especializados, propios de los periódicos y de agencias de noticias nacionales o extranjeras; y de comunidades de internautas (con tendencia a la difusión y discusión de noticias).\n",
+                            "A nivel oral en Colombia, la prensa tiene presencia en radioemisoras (públicas, comunitarias, estatales y privadas). Y por último a nivel visual, la prensa en Colombia tiene presencia en noticieros y canales especializados de noticias (difusión única por cable; en Colombia ningún canal de emisión en televisión abierta posee programación dedicada 24 horas exclusivamente a noticias).\n",
+                            "Reglamentación\n",
+                            "En la constitución de 1991, se reglamentan en Colombia las leyes en materia de:\n",
+                            "Libertad de conciencia:",
+                            "Artículo 18. Se garantiza la libertad de conciencia. Nadie será molestado por razón de sus convicciones o creencias ni compelido a revelarlas ni obligado a actuar contra su conciencia.",
+                            "Libertad de prensa:",
+                            "Artículo 20. Se garantiza a toda persona la libertad de expresar y difundir su pensamiento y opiniones, la de informar y recibir información veraz e imparcial, y la de fundar medios masivos de comunicación. Estos son libres y tienen responsabilidad social. Se garantiza el derecho a la rectificación en condiciones de equidad. No habrá censura.",
+                            "Protección a periodistas:",
+                            "Artículo 73. La actividad periodística gozará de protección para garantizar su libertad e independencia profesional."                            
                         ],
+                        "img": null,
+                        "pdf": null,
                         "questions": {
-                            "options": []
+                            "options": [
+                                {
+                                    "question": "Seleccione las opciones de cómo está conformada la prensa en Colombia:",
+                                    "answers": [
+                                        {"text": "Oral", "right": true},
+                                        {"text": "Escrita", "right": false},
+                                        {"text": "Visual", "right": false},
+                                        {"text": "Audiovisual", "right": false},
+                                        {"text": "Web", "right": true}
+                                    ]
+                                },
+                                {
+                                    "question": "¿Cuáles de las siguientes opciones no hace parte de la prensa escrita colombiana?:",
+                                    "answers": [
+                                        {"text": "Semanario", "right": false},
+                                        {"text": "Radioemisoras", "right": true},
+                                        {"text": "Noticieros", "right": true},
+                                        {"text": "Revistas", "right": false}
+                                    ]
+                                }
+                            ]
                         }
                     }
                 }
@@ -193,13 +233,30 @@
                     ],
                     "unit_evaluation": {
                         "body": [
-                            "Análisis y evaluación de imágenes visuales en el reportaje de noticias – incluyendo componentes técnicos/de diseño.",
-                            "Identificación y evaluación de los procedimientos de reportaje que mejor contribuyen al desarrollo de una ciudadanía informada.",
-                            "Evaluación del impacto visual en la audiencia"
-
+                            "Análisis y evaluación de imágenes visuales en el reportaje de noticias – incluyendo componentes técnicos/de diseño."
                         ],
+                        "img": null,
+                        "pdf": null,
                         "questions": {
-                            "options": []
+                            "options": [
+                                {
+                                    "question": "¿Cúal es la definición de producto?",
+                                    "answers": [
+                                        {"text": "Persona natural o jurídica, pública o privada, que requiera informar o promocionar la existencia, características, etc, de bienes, productos o servicios", "right": false},
+                                        {"text": "Toda persona natural o jurídica cuyo principal objetivo sea la prestación de SERVICIOS PUBLICITARIOS.", "right": false},
+                                        {"text": "Destinatario real o potencial al cual se dirige el anuncio.", "right": false},
+                                        {"text": "Es el sujeto del mensaje publicitario, se trate de bienes, servicios, instituciones, personas, conceptos o ideas. ", "right": true}
+                                    ]
+                                },
+                                {
+                                    "question": "¿Cúal no es  una de las funciones de la CONARP?",
+                                    "answers": [
+                                        {"text": "Reglamentar los procedimientos para acudir a la Comisión Nacional de Autorregulación Publicitaria, asegurando que se respete el derecho de defensa. ", "right": false},
+                                        {"text": "Iniciar, adelantar y fallar las investigaciones que por faltas disciplinarias se adelanten contra los servidores públicos y contra los particulares que ejercen funciones públicas o manejan dineros del estado, de conformidad con lo establecido en el Código Único Disciplinario", "right": true},
+                                        {"text": "Reglamentar, modificar, actualizar y adicionar las categorías especiales de productos.", "right": false}
+                                    ]
+                                }
+                            ]
                         }
                     }
                 }
@@ -237,12 +294,39 @@
                     ],
                     "unit_evaluation": {
                         "body": [
-                            "Análisis de los códigos y convenciones de una variedad de textos",
-                            "Análisis de los signos y símbolos en la comunidad",
-                            "Análisis y evaluación de los códigos que se utilizan en las tarjetas postales locales o nacionales"
+                            "De acuerdo al siguiente Mapa Conceptual, responda las siguientes preguntas"
                         ],
+                        "img": ["mapa"],
+                        "pdf": null,
                         "questions": {
-                            "options": []
+                            "options": [
+                                {
+                                    "question": "¿Cuales de las siguientes opciones no hace parte de la clases de signos según el canal?",
+                                    "answers": [
+                                        {"text": "Acústicos", "right": true},
+                                        {"text": "Simbolos", "right": false},
+                                        {"text": "Visuales", "right": false},
+                                        {"text": "Naturales", "right": false},
+                                        {"text": "Gustativos", "right": true}
+                                    ]
+                                },
+                                {
+                                    "question": "¿Cuáles de las siguientes opciones no hace parte de la prensa escrita colombiana?:",
+                                    "answers": [
+                                        {"text": "Señal de tráfico", "right": false},
+                                        {"text": "Humo de cigarillo", "right": true},
+                                        {"text": "Palabra escrita en braille", "right": true}
+                                    ]
+                                },
+                                {
+                                    "question": "¿Cual de los siguientes ejemplos, es un signo no humano?:",
+                                    "answers": [
+                                        {"text": "Palabras escritas", "right": false},
+                                        {"text": "Imágenes", "right": true},
+                                        {"text": "Movimiento de las abejas", "right": true}
+                                    ]
+                                }
+                            ]
                         }
                     }
                 }
@@ -294,8 +378,28 @@
                         "body": [
                             "El concepto y los planes para un ASP"
                         ],
+                        "img": null,
+                        "pdf": ["cc3b3digo-colombiano-de-autorregulacic3b3n-publicitaria-01", "cc3b3digo-colombiano-de-autorregulacic3b3n-publicitaria-02", "cc3b3digo-colombiano-de-autorregulacic3b3n-publicitaria-03", "cc3b3digo-colombiano-de-autorregulacic3b3n-publicitaria-04", "cc3b3digo-colombiano-de-autorregulacic3b3n-publicitaria-05", "cc3b3digo-colombiano-de-autorregulacic3b3n-publicitaria-06", "cc3b3digo-colombiano-de-autorregulacic3b3n-publicitaria-07", "cc3b3digo-colombiano-de-autorregulacic3b3n-publicitaria-08", "cc3b3digo-colombiano-de-autorregulacic3b3n-publicitaria-09", "cc3b3digo-colombiano-de-autorregulacic3b3n-publicitaria-10", "cc3b3digo-colombiano-de-autorregulacic3b3n-publicitaria-11", "cc3b3digo-colombiano-de-autorregulacic3b3n-publicitaria-12", "cc3b3digo-colombiano-de-autorregulacic3b3n-publicitaria-13", "cc3b3digo-colombiano-de-autorregulacic3b3n-publicitaria-14", "cc3b3digo-colombiano-de-autorregulacic3b3n-publicitaria-15", "cc3b3digo-colombiano-de-autorregulacic3b3n-publicitaria-16"],
                         "questions": {
-                            "options": []
+                            "options": [
+                                {
+                                    "question": "¿Cúal es la definición de producto?",
+                                    "answers": [
+                                        {"text": "Persona natural o jurídica, pública o privada, que requiera informar o promocionar la existencia, características, etc, de bienes, productos o servicios", "right": false},
+                                        {"text": "Toda persona natural o jurídica cuyo principal objetivo sea la prestación de SERVICIOS PUBLICITARIOS.", "right": false},
+                                        {"text": "Destinatario real o potencial al cual se dirige el anuncio.", "right": false},
+                                        {"text": "Es el sujeto del mensaje publicitario, se trate de bienes, servicios, instituciones, personas, conceptos o ideas. ", "right": true}
+                                    ]
+                                },
+                                {
+                                    "question": "¿Cúal no es  una de las funciones de la CONARP?",
+                                    "answers": [
+                                        {"text": "Reglamentar los procedimientos para acudir a la Comisión Nacional de Autorregulación Publicitaria, asegurando que se respete el derecho de defensa. ", "right": false},
+                                        {"text": "Iniciar, adelantar y fallar las investigaciones que por faltas disciplinarias se adelanten contra los servidores públicos y contra los particulares que ejercen funciones públicas o manejan dineros del estado, de conformidad con lo establecido en el Código Único Disciplinario", "right": true},
+                                        {"text": "Reglamentar, modificar, actualizar y adicionar las categorías especiales de productos.", "right": false}
+                                    ]
+                                }
+                            ]
                         }
                     }
                 }
@@ -336,10 +440,31 @@
                     ],
                     "unit_evaluation": {
                         "body": [
-                            "Escriba un ensayo corto sobre las principales diferencias entre los medios tradicionales y los nuevos, discutiendo hasta qué punto las diferencias son reales o artificiales. En el ensayo, evalúe las similitudes y diferencias entre los medios tradicionales y los electrónicos o digitales. Se deberán resaltar temas como responsabilidad editorial, verificación y otros principios del periodismo."
+                            "Tenga en cuenta las características de los medios tradicionales y de las nuevas tecnologías"
                         ],
+                        "img": null,
+                        "pdf": null,
                         "questions": {
-                            "options": []
+                            "options": [
+                                {
+                                    "question": "¿Cuáles son las caracteristicas de los medios tradicionales?",
+                                    "answers": [
+                                        {"text": "Comunicación bidireccional", "right": false},
+                                        {"text": "Segmentación clásica", "right": true},
+                                        {"text": "Contenido generado por expertos y por audiencia", "right": false},
+                                        {"text": "Baja Interactividad", "right": true}
+                                    ]
+                                },
+                                {
+                                    "question": "¿Cuáles son las caracteristicas de las nuevas tecnologías?",
+                                    "answers": [
+                                        {"text": "Comunicación bidireccional", "right": true},
+                                        {"text": "Segmentación clásica", "right": false},
+                                        {"text": "Contenido generado por expertos y por audiencia", "right": true},
+                                        {"text": "Baja Interactividad", "right": false}
+                                    ]
+                                }
+                            ]
                         }
                     }
                 }
@@ -376,10 +501,45 @@
                     ],
                     "unit_evaluation": {
                         "body": [
-                            "En esta unidad no hay evaluación, puede continuar"
+                            "De acuerdo a la Carta de Derechos Humanos y Principios para Internet de la ONU, responda las siguientes preguntas:"
                         ],
+                        "img": null,
+                        "pdf": ["IRPC_Carta_Derechos_Humanos_Internet-01", "IRPC_Carta_Derechos_Humanos_Internet-02", "IRPC_Carta_Derechos_Humanos_Internet-03", "IRPC_Carta_Derechos_Humanos_Internet-04", "IRPC_Carta_Derechos_Humanos_Internet-05", "IRPC_Carta_Derechos_Humanos_Internet-06", "IRPC_Carta_Derechos_Humanos_Internet-07", "IRPC_Carta_Derechos_Humanos_Internet-08", "IRPC_Carta_Derechos_Humanos_Internet-09", "IRPC_Carta_Derechos_Humanos_Internet-10", "IRPC_Carta_Derechos_Humanos_Internet-11", "IRPC_Carta_Derechos_Humanos_Internet-12", "IRPC_Carta_Derechos_Humanos_Internet-13", "IRPC_Carta_Derechos_Humanos_Internet-14", "IRPC_Carta_Derechos_Humanos_Internet-15", "IRPC_Carta_Derechos_Humanos_Internet-16", "IRPC_Carta_Derechos_Humanos_Internet-17", "IRPC_Carta_Derechos_Humanos_Internet-18", "IRPC_Carta_Derechos_Humanos_Internet-19", "IRPC_Carta_Derechos_Humanos_Internet-20", "IRPC_Carta_Derechos_Humanos_Internet-21", "IRPC_Carta_Derechos_Humanos_Internet-22", "IRPC_Carta_Derechos_Humanos_Internet-23", "IRPC_Carta_Derechos_Humanos_Internet-24", "IRPC_Carta_Derechos_Humanos_Internet-25", "IRPC_Carta_Derechos_Humanos_Internet-26", "IRPC_Carta_Derechos_Humanos_Internet-27", "IRPC_Carta_Derechos_Humanos_Internet-28", "IRPC_Carta_Derechos_Humanos_Internet-29", "IRPC_Carta_Derechos_Humanos_Internet-30", "IRPC_Carta_Derechos_Humanos_Internet-31", "IRPC_Carta_Derechos_Humanos_Internet-32", "IRPC_Carta_Derechos_Humanos_Internet-33", "IRPC_Carta_Derechos_Humanos_Internet-34", "IRPC_Carta_Derechos_Humanos_Internet-35", "IRPC_Carta_Derechos_Humanos_Internet-36"],                        
                         "questions": {
-                            "options": []
+                            "options": [
+                                {
+                                    "question": "¿Qué derecho del Internet, no hace parte de la Carta Universal de los Derechos Humanos?",
+                                    "answers": [
+                                        {"text": "Universalidad e Igualdad", "right": false},
+                                        {"text": "Accesibilidad", "right": false},
+                                        {"text": "Paz", "right": true},
+                                        {"text": "Confidencialidad y protección de datos", "right": false},
+                                        {"text": "Gobierno", "right": false}
+                                    ]
+                                },
+                                {
+                                    "question": "Seleccione las opciones que incluye el acceso a Internet",
+                                    "answers": [
+                                        {"text": "Calidad del servicio", "right": true},
+                                        {"text": "Garantizar la inclusión digital", "right": true},
+                                        {"text": "Seguridad de Internet", "right": false},
+                                        {"text": "La libertad de elección del sistema y del software", "right": true},
+                                        {"text": "La libertad de los medios de comunicación", "right": false},
+                                        {"text": "Neutralidad e igualdad de la Red", "right": true}
+                                    ]
+                                },
+                                {
+                                    "question": "Seleccione las opciones de los derechos de los Niños y niñas al Internet",
+                                    "answers": [
+                                        {"text": "Derecho a beneficiarse de Internet", "right": true},
+                                        {"text": "Protección contra la explotación y las imágenes de abuso infantil", "right": true},
+                                        {"text": "Derecho a ser escuchado", "right": true},
+                                        {"text": "Protección de datos personales", "right": false},
+                                        {"text": "El interés superior del niño", "right": true},
+                                        {"text": "La libertad de protesta en línea", "right": false}
+                                    ]
+                                }
+                            ]
                         }
                     }
                 }
@@ -436,8 +596,43 @@
                             "¿De qué forma usted seleccionó lo que quería presentar de entre una gran variedad de información disponible sobre el tema? ¿De qué quería usted tener más información que no pudo tener acceso, o cómo afectó esto a su presentación? Finalmente, ¿transformó usted la información que recopiló para aplicar su contexto particular? ¿Cómo y por qué?"
 
                         ],
+                        "img": null,
+                        "pdf": null,                        
                         "questions": {
-                            "options": []
+                            "options": [
+                                {
+                                    "question": "¿Qué derecho del Internet, no hace parte de la Carta Universal de los Derechos Humanos?",
+                                    "answers": [
+                                        {"text": "Universalidad e Igualdad", "right": false},
+                                        {"text": "Accesibilidad", "right": false},
+                                        {"text": "Paz", "right": true},
+                                        {"text": "Confidencialidad y protección de datos", "right": false},
+                                        {"text": "Gobierno", "right": false}
+                                    ]
+                                },
+                                {
+                                    "question": "Seleccione las opciones que incluye el acceso a Internet",
+                                    "answers": [
+                                        {"text": "Calidad del servicio", "right": true},
+                                        {"text": "Garantizar la inclusión digital", "right": true},
+                                        {"text": "Seguridad de Internet", "right": false},
+                                        {"text": "La libertad de elección del sistema y del software", "right": true},
+                                        {"text": "La libertad de los medios de comunicación", "right": false},
+                                        {"text": "Neutralidad e igualdad de la Red", "right": true}
+                                    ]
+                                },
+                                {
+                                    "question": "Seleccione las opciones de los derechos de los Niños y niñas al Internet",
+                                    "answers": [
+                                        {"text": "Derecho a beneficiarse de Internet", "right": true},
+                                        {"text": "Protección contra la explotación y las imágenes de abuso infantil", "right": true},
+                                        {"text": "Derecho a ser escuchado", "right": true},
+                                        {"text": "Protección de datos personales", "right": false},
+                                        {"text": "El interés superior del niño", "right": true},
+                                        {"text": "La libertad de protesta en línea", "right": false}
+                                    ]
+                                }
+                            ]
                         }
                     }
                 }
@@ -480,8 +675,43 @@
                             "Identifique ejemplos generales de enseñanza acerca de AMI y a través de los medios, bibliotecas, archivos y otros proveedores de información. Describa actividades/ejemplos específicos en su clase donde usen estos dos enfoques. ¿Qué ofrecen estos enfoques a los estudiantes en términos de su experiencia de aprendizaje?"
 
                         ],
+                        "img": null,
+                        "pdf": null,                        
                         "questions": {
-                            "options": []
+                            "options": [
+                                {
+                                    "question": "¿Qué derecho del Internet, no hace parte de la Carta Universal de los Derechos Humanos?",
+                                    "answers": [
+                                        {"text": "Universalidad e Igualdad", "right": false},
+                                        {"text": "Accesibilidad", "right": false},
+                                        {"text": "Paz", "right": true},
+                                        {"text": "Confidencialidad y protección de datos", "right": false},
+                                        {"text": "Gobierno", "right": false}
+                                    ]
+                                },
+                                {
+                                    "question": "Seleccione las opciones que incluye el acceso a Internet",
+                                    "answers": [
+                                        {"text": "Calidad del servicio", "right": true},
+                                        {"text": "Garantizar la inclusión digital", "right": true},
+                                        {"text": "Seguridad de Internet", "right": false},
+                                        {"text": "La libertad de elección del sistema y del software", "right": true},
+                                        {"text": "La libertad de los medios de comunicación", "right": false},
+                                        {"text": "Neutralidad e igualdad de la Red", "right": true}
+                                    ]
+                                },
+                                {
+                                    "question": "Seleccione las opciones de los derechos de los Niños y niñas al Internet",
+                                    "answers": [
+                                        {"text": "Derecho a beneficiarse de Internet", "right": true},
+                                        {"text": "Protección contra la explotación y las imágenes de abuso infantil", "right": true},
+                                        {"text": "Derecho a ser escuchado", "right": true},
+                                        {"text": "Protección de datos personales", "right": false},
+                                        {"text": "El interés superior del niño", "right": true},
+                                        {"text": "La libertad de protesta en línea", "right": false}
+                                    ]
+                                }
+                            ]
                         }
                     }
                 }
@@ -525,13 +755,42 @@
                         "body": [
                             "Investigue sobre el trabajo realizado por Blumer y Kats (1974), quien dijo que las audiencias podrían escoger y utilizar un texto mediático por una o varias de las siguientes razones:"
                         ],
+                        "img": null,
+                        "pdf": null,                        
                         "questions": {
                             "options": [
-                                "Diversión: un escape de la vida diaria",
-                                "Relaciones personales: el verse a usted conectado con un personaje de televisión o de la «familia»",
-                                "Identidad personal: ser capaz de identificarse con y aprender de un comportamiento, actitud o valores que se reflejan en los textos mediáticos",
-                                "Supervisión: utilizar los medios y los textos de información para aprender acerca de lo que sucede en nuestro mundo de alrededor, y para obtener información que puede ser útil para nuestra vida diaria (por Ej. Predicciones climáticas, noticias, resultados de elecciones, etc.)"
-
+                                {
+                                    "question": "¿Qué derecho del Internet, no hace parte de la Carta Universal de los Derechos Humanos?",
+                                    "answers": [
+                                        {"text": "Universalidad e Igualdad", "right": false},
+                                        {"text": "Accesibilidad", "right": false},
+                                        {"text": "Paz", "right": true},
+                                        {"text": "Confidencialidad y protección de datos", "right": false},
+                                        {"text": "Gobierno", "right": false}
+                                    ]
+                                },
+                                {
+                                    "question": "Seleccione las opciones que incluye el acceso a Internet",
+                                    "answers": [
+                                        {"text": "Calidad del servicio", "right": true},
+                                        {"text": "Garantizar la inclusión digital", "right": true},
+                                        {"text": "Seguridad de Internet", "right": false},
+                                        {"text": "La libertad de elección del sistema y del software", "right": true},
+                                        {"text": "La libertad de los medios de comunicación", "right": false},
+                                        {"text": "Neutralidad e igualdad de la Red", "right": true}
+                                    ]
+                                },
+                                {
+                                    "question": "Seleccione las opciones de los derechos de los Niños y niñas al Internet",
+                                    "answers": [
+                                        {"text": "Derecho a beneficiarse de Internet", "right": true},
+                                        {"text": "Protección contra la explotación y las imágenes de abuso infantil", "right": true},
+                                        {"text": "Derecho a ser escuchado", "right": true},
+                                        {"text": "Protección de datos personales", "right": false},
+                                        {"text": "El interés superior del niño", "right": true},
+                                        {"text": "La libertad de protesta en línea", "right": false}
+                                    ]
+                                }
                             ]
                         }
                     }
@@ -589,8 +848,43 @@
                             "Identifique un tema nacional que haya sido cubierto de manera extensa por las principales estaciones de televisión (de propiedad privada, de propiedad del gobierno y de propiedad pública) y compare y contraste los ángulos (es decir; puntos de vista particulares o perspectivas) y el tratamiento (es decir: reporte o manipulación) de las noticias. Refiérase al módulo 2 para ver los antecedentes de los valores en las noticias y en el proceso de desarrollo de las noticias).",
                             "Revise las políticas editoriales de las publicaciones de la escuela/colegio en los diferentes ambientes (sectario vs. no sectario, privado vs. propiedad de gobierno, y estado vs. escuelas/ colegios locales) y descubra cómo la propiedad afecta al manejo de las publicaciones, al contenido editorial, etc."
                         ],
+                        "img": null,
+                        "pdf": null,                        
                         "questions": {
-                            "options": []
+                            "options": [
+                                {
+                                    "question": "¿Qué derecho del Internet, no hace parte de la Carta Universal de los Derechos Humanos?",
+                                    "answers": [
+                                        {"text": "Universalidad e Igualdad", "right": false},
+                                        {"text": "Accesibilidad", "right": false},
+                                        {"text": "Paz", "right": true},
+                                        {"text": "Confidencialidad y protección de datos", "right": false},
+                                        {"text": "Gobierno", "right": false}
+                                    ]
+                                },
+                                {
+                                    "question": "Seleccione las opciones que incluye el acceso a Internet",
+                                    "answers": [
+                                        {"text": "Calidad del servicio", "right": true},
+                                        {"text": "Garantizar la inclusión digital", "right": true},
+                                        {"text": "Seguridad de Internet", "right": false},
+                                        {"text": "La libertad de elección del sistema y del software", "right": true},
+                                        {"text": "La libertad de los medios de comunicación", "right": false},
+                                        {"text": "Neutralidad e igualdad de la Red", "right": true}
+                                    ]
+                                },
+                                {
+                                    "question": "Seleccione las opciones de los derechos de los Niños y niñas al Internet",
+                                    "answers": [
+                                        {"text": "Derecho a beneficiarse de Internet", "right": true},
+                                        {"text": "Protección contra la explotación y las imágenes de abuso infantil", "right": true},
+                                        {"text": "Derecho a ser escuchado", "right": true},
+                                        {"text": "Protección de datos personales", "right": false},
+                                        {"text": "El interés superior del niño", "right": true},
+                                        {"text": "La libertad de protesta en línea", "right": false}
+                                    ]
+                                }
+                            ]
                         }
                     }
                 }
