@@ -53,19 +53,18 @@
       </table>
     </form>
     <hr>
-    <template v-if="'questions' in unitData.unit_evaluation">
-      <div v-for="(question, i) in unitData.unit_evaluation.questions.options" :key="i">
-        <span><b>{{question.question}}</b></span>
-        <b-form-checkbox-group
-          stacked
-          v-for="(value, index) in question.answers"
-          :key="index"
-        >
-        <b-form-checkbox @change="addAnswers(value)">{{ value.text }}</b-form-checkbox>
-        </b-form-checkbox-group>
-        <hr>
-      </div>
-    </template>
+    <div v-for="(question, i) in unitData.unit_evaluation.questions.options" :key="i">
+      <span><b>{{question.question}}</b></span>
+      <b-form-checkbox-group
+        stacked
+        v-for="(value, index) in question.answers"
+        v-model="temporally"
+        :key="index"
+      >
+      <b-form-checkbox :value="value.text">{{ value.text }}</b-form-checkbox>
+      </b-form-checkbox-group>
+      <hr>
+    </div>
     <b-col align="right">
       <b-button variant="success" @click="addModuleScope" v-b-modal="'myModal'" :disabled="this.courseData.moduleScope !== this.courseData.currentModule">
         <i class="fa fa-check-circle" aria-hidden="true"></i>
@@ -150,13 +149,6 @@ export default {
     getActivity(name){
       return require("../media/".concat(name, ".png"));
     },
-    addAnswers(value) {
-      if (!this.temporally.includes(value.text)) {
-        this.temporally.push(value.text)
-      } else {
-        this.temporally.splice(this.temporally.indexOf(value.text), 1)
-      }
-    },
     addModuleScope() {
       this.success = false;
       var form = document.querySelector("#question-table");
@@ -197,6 +189,15 @@ export default {
         }
       }
       return
+    }
+  },
+  watch: {
+    unitData() {
+      console.log("unitData");
+      
+      if (this.temporally.length) {
+        this.temporally = [];
+      }
     }
   }
 };
