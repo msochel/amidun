@@ -104,7 +104,9 @@
       <template v-else-if="success">
         <p>¡Felicidades!</p>
       </template>
-      <b-button class="mt-3" variant="outline-info" block @click="hideModal">Siguiente Módulo</b-button>
+      <b-button class="mt-3" variant="outline-info" block @click="hideModal">
+        {{courseData.moduleScope === 10 ? "Finalizar" : "Siguiente Módulo"}}
+      </b-button>
     </b-modal>
   </div>
 </template>
