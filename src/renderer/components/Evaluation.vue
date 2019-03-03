@@ -33,9 +33,10 @@
       <b-form-checkbox-group
         stacked
         v-for="(value, index) in question.answers"
+        v-model="temporally"
         :key="index"
       >
-      <b-form-checkbox @change="addAnswers(value)">{{ value.text }}</b-form-checkbox>
+      <b-form-checkbox :value="value.text">{{ value.text }}</b-form-checkbox>
       </b-form-checkbox-group>
       <hr>
     </div>
@@ -70,7 +71,6 @@ export default {
     // this.answers = this.unitData.unit_evaluation.questions.options.map(option => option.answers).filter(option => option.right).map(option => option.text)
   },
   beforeUpdate: function() {
-    this.temporally = [];
     this.answers = [];
     this.unitData.unit_evaluation.questions.options.forEach(questions => {
       questions.answers.forEach(element => {
@@ -83,13 +83,6 @@ export default {
   methods: {
     getActivity(name){
       return require("../media/".concat(name, ".png"));
-    },
-    addAnswers(value) {
-      if (!this.temporally.includes(value.text)) {
-        this.temporally.push(value.text)
-      } else {
-        this.temporally.splice(this.temporally.indexOf(value.text), 1)
-      }
     },
     addModuleScope() {
       if (this.temporally.filter(r => !this.answers.includes(r)).length === 0 && this.temporally.length === this.answers.length) {
@@ -104,6 +97,15 @@ export default {
         if (this.courseData.currentModule !== this.courseData.totalModules - 1) {
           this.courseData.currentModule += 1;
         }
+      }
+    }
+  },
+  watch: {
+    unitData() {
+      console.log("unitData");
+      
+      if (this.temporally.length) {
+        this.temporally = [];
       }
     }
   }
