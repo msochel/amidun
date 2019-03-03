@@ -46,7 +46,7 @@
                   />
                 </template>
                 <template v-else-if="element !== null">{{ element }}</template>
-                <template v-else><input :type="'correct' in unitData.unit_evaluation ? 'number': 'text'" :name="parseInt((i+1)) + _i"></template>
+                <template v-else><input :type="'correct' in unitData.unit_evaluation ? 'number': 'text'" :name="parseInt((i+1)) + _i" value=""></template>
               </td>
           </tr>
         </tbody>
@@ -71,29 +71,41 @@
         Hecho
       </b-button>
     </b-col>
-  <b-modal hide-footer ref="myModalRef" centered title="Las respuestas correctas son:" :no-close-on-backdrop=true :hide-header-close=true :no-close-on-esc=true>
-    <template v-if="!('thead' in unitData.unit_evaluation) && !success">
-      <div v-for="(question, i) in unitData.unit_evaluation.questions.options" :key="i">
-        <span><b>{{question.question}}</b></span>
-        <div
-          v-for="(value, index) in question.answers"
-          :key="index"
-        >
-          <li v-if="value.right">{{value.text}}</li>
+    <b-modal hide-footer ref="myModalRef" centered title="Resultados" :no-close-on-backdrop=true :hide-header-close=true :no-close-on-esc=true>
+      <template v-if="courseData.moduleScope === 10">
+        <h5>Su puntaje final es: </h5>
+        <span class="score">
+          <h6>{{getScoreFinal()}}</h6>
+        </span>
+      </template>
+      <template v-else-if="!('thead' in unitData.unit_evaluation) && !success">
+        <p>Las respuestas correctas son: </p>
+        <div v-for="(question, i) in unitData.unit_evaluation.questions.options" :key="i">
+          <span><b>{{question.question}}</b></span>
+          <div
+            v-for="(value, index) in question.answers"
+            :key="index"
+          >
+            <li v-if="value.right">{{value.text}}</li>
+          </div>
         </div>
-        <!-- {{nextModule()}} -->
-      </div>
-    </template>
-    <template v-else-if="'thead' in unitData.unit_evaluation && !success">
-      <p>Respuestas equivocadas.</p>
-      <!-- {{nextModule()}} -->
-    </template>
-    <template v-else-if="success">
-      <p>¡Felicidades!</p>
-      <!-- {{nextModule()}} -->
-    </template>
-    <b-button class="mt-3" variant="outline-info" block @click="hideModal">Cerrar</b-button>
-  </b-modal>
+      </template>
+      <template v-else-if="'thead' in unitData.unit_evaluation && !success">
+        <template v-if="'correct' in unitData.unit_evaluation">
+          <p>El orden correcto es: </p>
+          <li v-for="(value, i) in unitData.unit_evaluation.order" :key="i">
+            {{value}}
+          </li>
+        </template>
+        <template v-else>
+          <p>Respuestas equivocadas.</p>
+        </template>
+      </template>
+      <template v-else-if="success">
+        <p>¡Felicidades!</p>
+      </template>
+      <b-button class="mt-3" variant="outline-info" block @click="hideModal">Siguiente Módulo</b-button>
+    </b-modal>
   </div>
 </template>
 
@@ -116,12 +128,8 @@ export default {
         }
       });
     });
-    //console.log(this.answers = this.unitData.unit_evaluation.questions.options.map(option => option.answers))
-    // this.answers = this.unitData.unit_evaluation.questions.options.map(option => option.answers).filter(option => option.right).map(option => option.text)
   },
   beforeUpdate: function() {
-    // this.success = false;
-    this.temporally = [];
     this.answers = [];
     this.unitData.unit_evaluation.questions.options.forEach(questions => {
       questions.answers.forEach(element => {
@@ -132,6 +140,9 @@ export default {
     });
   },
   methods: {
+    getScoreFinal() {
+      return (this.score / 11 * 100).toFixed(2)
+    },
     showModal() {
       this.$refs.myModalRef.show()
     },
@@ -139,9 +150,8 @@ export default {
       if (this.courseData.moduleScope === this.courseData.currentModule) {
         this.courseData.moduleScope += 1;
         if (this.courseData.currentModule !== this.courseData.totalModules - 1) {
-          console.log("hola");
-          
           this.courseData.currentModule += 1;
+          document.querySelector("#question-table").reset();
         }
       }
       this.$refs.myModalRef.hide()
@@ -155,18 +165,20 @@ export default {
       var isNumber = 'correct' in this.unitData.unit_evaluation;
       var answers = Object.values(form).reduce((obj,field) => { obj[field.name] = isNumber ? parseInt(field.value):field.value ; return obj }, {});
       if (isNumber) {
-        console.log("ORDEEEEEEEEEEEEEEN");
         var isCorrect = JSON.stringify(this.unitData.unit_evaluation.correct)===JSON.stringify(Object.values(answers));
       }
       if (isCorrect) {
         this.score += 1;
+        this.success = true;
       } else {
-        if ('thead' in this.unitData.unit_evaluation) {
-          if (!Object.values(answers).includes("")) {
-            this.score += 1
-            console.log("Felicidades", "tabla")
-          } else {
-            console.log("Error", "Tabla")
+        if (!isNumber) {
+          if ('thead' in this.unitData.unit_evaluation) {
+            if (!Object.values(answers).includes("")) {
+              this.score += 1
+              this.success = true;
+            } else {
+              this.success = false;
+            }
           }
         }
       }
@@ -174,27 +186,15 @@ export default {
         if (this.temporally.filter(r => !this.answers.includes(r)).length === 0 && this.temporally.length === this.answers.length) {
           this.score += 1;
           this.success = true;
-          console.log("Felicidades");
         } else {
           this.success = false;
-          console.log("Error");
         }
       }
       this.showModal();
-      return
-      if (this.courseData.moduleScope === this.courseData.currentModule) {
-        this.courseData.moduleScope += 1;
-        if (this.courseData.currentModule !== this.courseData.totalModules - 1) {
-          this.courseData.currentModule += 1;
-        }
-      }
-      return
     }
   },
   watch: {
     unitData() {
-      console.log("unitData");
-      
       if (this.temporally.length) {
         this.temporally = [];
       }
@@ -212,6 +212,11 @@ export default {
   overflow: auto;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
+}
+
+.score{
+  margin: auto;
+  display: table;
 }
 
 #table-answers {

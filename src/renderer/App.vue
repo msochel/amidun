@@ -95,6 +95,7 @@ export default {
             moduleScope: data.module,
             unitScope: 0
           }
+          this.score = data.score
         });
       })
     }

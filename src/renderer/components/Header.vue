@@ -34,7 +34,8 @@ export default {
   methods: {
     saveProgress() {
       var progress = {
-        "module": this.courseData.moduleScope
+        "module": this.courseData.moduleScope,
+        "score": this.score
       }
       dialog.showSaveDialog({ filters: [
         { name: 'json', extensions: ['json'] }
@@ -69,6 +70,7 @@ export default {
             moduleScope: data.module,
             unitScope: 0
           }
+          this.score = data.score
           console.log(this.courseData)
         });
       })
